@@ -1,0 +1,25 @@
+footer{
+    width: 90%;
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+.local-info h5{
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.socials-header{
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.socials{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.copyright{
+    text-align: center;
+}

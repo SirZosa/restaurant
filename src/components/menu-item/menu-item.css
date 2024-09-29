@@ -1,0 +1,40 @@
+.menu-item{
+    max-width: 500px;
+    height: 110px;
+    display: flex;
+    color: aliceblue;
+}
+
+.menu-item-img{
+    width: 110px;
+    aspect-ratio: 1;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0.5px 0.5px 4px #ffffff;
+}
+
+.menu-item-info{
+    background-color: #001900;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0.25rem 1rem 0.5rem 1rem;
+    box-shadow: 0.5px 0.5px 4px #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item-name{
+    margin:0;
+    font-size: 0.875rem;
+}
+
+.description, .price{
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.price{
+    font-weight: 600;
+}

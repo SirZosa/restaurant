@@ -1,0 +1,36 @@
+.category-scroller {
+    position: sticky;
+    top: 64px;
+    padding: 1rem;
+    border-bottom: 1px solid aliceblue;
+    background-color: #001100;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    gap: 1.5rem;
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Opera */
+    }
+  }
+  
+  .category-scroller .category {
+    scroll-snap-align: center;
+  }
+
+  .category{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: aliceblue;
+    background-color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid aliceblue;
+    border-radius: 30px;
+  }
+
+  :target {
+    scroll-margin-top: 132px; /* Adjust the offset value */
+  }

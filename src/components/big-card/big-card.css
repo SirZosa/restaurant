@@ -1,0 +1,51 @@
+.big-card{
+    width: 90%;
+    aspect-ratio: 1;
+    position: relative;
+    cursor: pointer;
+}
+
+.background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(1px) contrast(1.1);
+}
+
+.big-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* adjust opacity */
+    z-index: -1;
+  }
+  
+
+.cover-content{
+    height: 100%;
+    color: aliceblue;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 1px 3px #001100;
+    z-index: 10;
+}
+
+.big-card a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.big-card h3{
+    font-size: 1.75rem;
+}
