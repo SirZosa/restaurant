@@ -12,28 +12,40 @@ export default function Menu(){
             <CategoryScroller/>
             <section className='menu-container'>
                 <h3 id='1' className="menu-category">Category 1</h3><hr />
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                <div className="menu-item-container">
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                </div>
                 <h3 id='2' className="menu-category">Category 2</h3><hr />
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                <div className="menu-item-container">
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                </div>
                 <h3 id='3' className="menu-category">Category 3</h3><hr />
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                <div className="menu-item-container">
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                </div>
                 <h3 id='4' className="menu-category">Category 4</h3><hr />
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                <div className="menu-item-container">
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                </div>
                 <h3 id='5' className="menu-category">Category 5</h3><hr />
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                <div className="menu-item-container">
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                </div>
                 <h3 id='6' className="menu-category">Category 6</h3><hr />
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
-                <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                <div className="menu-item-container">
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                    <MenuItem name="Food name" description={info} imgUrl={food} price={9.99}/>
+                </div>
             </section>
         </section>
     )

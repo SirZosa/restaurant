@@ -38,3 +38,27 @@
 .price{
     font-weight: 600;
 }
+
+@media(min-width:768px){
+    .menu-item{
+        width: 100%;
+        max-width: 1200px;
+        height: 150px;
+    }
+
+    .menu-item-info{
+        width: 100%;
+    }
+
+    .menu-item-img{
+        width: 150px;
+    }
+
+    .item-name{
+        font-size: 1.5rem;
+    }
+
+    .description, .price{
+        font-size: 1rem;
+    }
+}

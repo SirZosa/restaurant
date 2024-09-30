@@ -35,9 +35,9 @@ export default function Navbar(){
                     <Link onClick={()=> setOpen(false)} to="other">OTHER</Link>
                 </div>
                 <div className="nav-socials">
-                    <img src={ig} alt="instagram logo" />
-                    <img src={fb} alt="facebook logo" />
-                    <img src={tw} alt="twitter logo" />
+                    <a href="#"><img src={ig} alt="instagram logo" /></a>
+                    <a href="#"><img src={fb} alt="facebook logo" /></a>
+                    <a href="#"><img src={tw} alt="twitter logo" /></a>
                 </div>
             </div>
         </nav>

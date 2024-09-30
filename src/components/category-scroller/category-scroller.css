@@ -7,13 +7,8 @@
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
-    scroll-snap-type: x mandatory;
     display: flex;
     gap: 1.5rem;
-    scrollbar-width: none; /* Firefox */
-    &::-webkit-scrollbar {
-      display: none; /* Chrome, Safari, Opera */
-    }
   }
   
   .category-scroller .category {
@@ -23,14 +18,67 @@
   .category{
     font-size: 0.875rem;
     font-weight: 600;
-    color: aliceblue;
+    color: #f0f8ff;
     background-color: black;
     text-decoration: none;
     padding: 0.5rem 1rem;
     border: 1px solid aliceblue;
     border-radius: 30px;
+    transition: all 0.3s ease;
+  }
+
+  .category.active{
+    background-color: #fff;
+    color: #001100;
   }
 
   :target {
     scroll-margin-top: 132px; /* Adjust the offset value */
+  }
+
+  .category-scroller::-webkit-scrollbar {
+    height: 12px; /* Scrollbar height */
+    background: transparent; /* Scrollbar track background */
+  }
+  
+  .category-scroller::-webkit-scrollbar-thumb {
+    background-color: #001100; /* Scrollbar thumb color */
+    border-radius: 10px; /* Scrollbar thumb rounded corners */
+    border: 1px solid #fff; /* Scrollbar thumb border */
+  }
+  
+  .category-scroller::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Scrollbar thumb hover color */
+  }
+  
+  .category-scroller::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Scrollbar track background */
+    border-radius: 10px; /* Scrollbar track rounded corners */
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); /* Scrollbar track shadow */
+  }
+
+  @media(max-width:767px){
+    .category-scroller{
+      scroll-snap-type: x mandatory;
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari, Opera */
+    }
+    }
+  }
+
+  @media(min-width:768px){
+    .category-scroller{
+      justify-content: center;
+    }
+
+    .category{
+      font-size: 1rem;
+      border-radius: 15px;
+    }
+
+    .category:hover{
+      transform: scale(1.1);
+      background-color: #151515;
+    }
   }

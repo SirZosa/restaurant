@@ -24,9 +24,9 @@ export default function Footer(){
             </div>
             <h5 className='socials-header'>LET'S CONNECT!</h5>
             <div className="socials">
-                <img src={ig} alt="instagram logo" />
-                <img src={fb} alt="facebook logo" />
-                <img src={tw} alt="twitter logo" />
+                <a href="#"><img src={ig} alt="instagram logo" /></a>
+                <a href="#"><img src={fb} alt="facebook logo" /></a>
+                <a href="#"><img src={tw} alt="twitter logo" /></a>
             </div>
             <hr />
             <p className='copyright'>Copyright &copy; Restaurant 2024</p>
