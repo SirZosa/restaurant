@@ -1,3 +1,4 @@
+import './home.css'
 import MainCover from "../../components/main-cover/main-cover"
 import BigCard from "../../components/big-card/bigCard"
 import coverImg from '../../assets/main-cover.jpg'

@@ -23,3 +23,19 @@ footer{
 .copyright{
     text-align: center;
 }
+
+@media(min-width:768px){
+    .local-info{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+    .socials-header{
+        text-align: center;
+    }
+
+    .socials{
+        justify-content: center;
+        gap: 2rem;
+    }
+}

@@ -5,7 +5,7 @@
     cursor: pointer;
 }
 
-.background-image{
+.card-background-image{
     position: absolute;
     top: 0;
     left: 0;
@@ -48,4 +48,14 @@
 
 .big-card h3{
     font-size: 1.75rem;
+}
+
+@media (min-width:768px){
+    .big-card{
+        max-width: 480px;
+    }
+
+    .big-card h3{
+        font-size: 2.5rem;
+    }
 }

@@ -7,14 +7,20 @@ export default function Footer(){
         <footer>
             <hr />
             <div className="local-info">
-                <h5>LOCATION:</h5>
-                <p>Street ramdom 1234, City, State</p>
-                <h5>PHONE:</h5>
-                <p>(999) 999-9999</p>
-                <h5>AVAILABILITY:</h5>
-                <p>MONDAY - THURDAY: 9:00am - 6:00pm</p>
-                <p>FRIDAY - SATURDAY: 8:00am - 8:00pm</p>
-                <p>SUNDAY: CLOSED</p>
+                <div className="info">
+                    <h5>LOCATION:</h5>
+                    <p>Street ramdom 1234, City, State</p>
+                </div>
+                <div className="info">
+                    <h5>PHONE:</h5>
+                    <p>(999) 999-9999</p>
+                </div>
+                <div className="info">
+                    <h5>AVAILABILITY:</h5>
+                    <p>MONDAY - THURDAY: 9:00am - 6:00pm</p>
+                    <p>FRIDAY - SATURDAY: 8:00am - 8:00pm</p>
+                    <p>SUNDAY: CLOSED</p>
+                </div>
             </div>
             <h5 className='socials-header'>LET'S CONNECT!</h5>
             <div className="socials">
