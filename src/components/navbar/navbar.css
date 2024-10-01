@@ -2,8 +2,9 @@ nav{
     font-family: "Inter", system-ui;
     position:fixed;
     top: 0;
+    right: 0;
     background-color: #001100;
-    width: 100vw;
+    width: 100%;
     height: 4rem;
     z-index: 999;
 }
