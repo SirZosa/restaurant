@@ -10,7 +10,7 @@ function App() {
       <ScrollToTop/>
       <Routes>
         <Route path='/' element={<Layout/>}>
-          <Route path='*' element={<h1>Page not found D:</h1>}/>
+          <Route path='*' element={<h1 style={{marginTop:"64px", color:"aliceblue"}}>Page not found D:</h1>}/>
           <Route index element={<Home/>}/>
           <Route path='menu' element={<Menu/>}/>
           <Route path='specials' element={<h1 style={{margin:'64px auto', color:'#ffffff'}}>Special section :D</h1>}/>
